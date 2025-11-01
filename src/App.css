@@ -1,0 +1,13 @@
+ul li {
+  display: flex;
+  gap: 20px;
+}
+
+.signup{
+  width: 60%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}

@@ -1,0 +1,31 @@
+import React from "react";
+import "./Navbar.css";
+
+export default function Navbar() {
+  return (
+    <nav className="navbar">
+      <div>
+        <img
+          style={{ height: "35px" }}
+          src="data:image/png;base64,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"
+          alt=""
+        />
+      </div>
+      
+      <div className="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div className="right-div">
+        <div>carrer launchedpad</div>
+        <div>Professionals Courses </div>
+        <div>Healthcare Jobs </div>
+        <div>Study Abroad</div>
+        <button className="button">LMS Login</button>
+        <button className="button">LMS Login 2.0</button>
+      </div>
+    </nav>
+  );
+}
